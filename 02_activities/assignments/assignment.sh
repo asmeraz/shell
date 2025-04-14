@@ -47,5 +47,7 @@ ls ./data/processed/* >> ./data/inventory.txt
 
 
 ###########################################
-
+assignment
 echo "Project setup is complete!"  _ _ _ _ _ _ ............
+echo "Project setup is complete!"  _ _ _ _ _ _ ........
+main
