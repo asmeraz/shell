@@ -19,7 +19,7 @@ jobs:
             const repo = context.repo;
 
             if (branchName.startsWith('assignment')) {
-              const commentBody = ` This pull request was made to the wrong repository. Please open it in your own fork instead. Refer to the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for detailed instructions.`;
+              const commentBody = `This pull request was made to the wrong repository. Please open it in your own fork instead. Refer to the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for detailed instructions.`;
 
               // Comment on the PR
               await github.rest.issues.createComment({
